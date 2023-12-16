@@ -1,0 +1,36 @@
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    width: 200%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 3px solid red;
+}
+.error{
+   color: red;
+}
+button{
+    color: white;
+    background-color: blue;
+    border: none;
+    text-align: center;
+    padding: 8px;
+    width: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success{
+    color: green;
+}
